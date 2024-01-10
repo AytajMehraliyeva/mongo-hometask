@@ -10,7 +10,7 @@ app.use(express.json())
 app.use("/datas", DataRouter)
 
 
-mongoose.connect(`mongodb+srv://tu7lzxxdc:aytac123@cluster1.fvv4h2i.mongodb.net/`).then(res => {
+mongoose.connect(`mongodb+srv://tu7lzxxdc:aytac123@cluster0.fvv4h2i.mongodb.net/`).then(res => {
     console.log("Connect to db")
 })
 
