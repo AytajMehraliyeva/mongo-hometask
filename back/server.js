@@ -7,7 +7,7 @@ const app = express()
 const PORT = process.env.PORT || 5000
 app.use(cors())
 app.use(express.json())
-app.use("/data", DataRouter)
+app.use("/datas", DataRouter)
 
 
 mongoose.connect(`mongodb+srv://tu7lzxxdc:aytac123@cluster0.fvv4h2i.mongodb.net/`).then(res => {
