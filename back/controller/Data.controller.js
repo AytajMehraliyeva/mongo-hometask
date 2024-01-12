@@ -23,8 +23,8 @@ const DataController = {
 
     add: async(req, res) => {
         try {
-            const { name, price, img } = req.body
-            const newDatas = new Datas({ name, price, img })
+            const { name, price, img,desc } = req.body
+            const newDatas = new Datas({ name, price, img,desc })
             await newDatas.save()
             res.status(201).send("New items created")
         } catch (error) {
@@ -36,7 +36,7 @@ const DataController = {
         try {
             const { id } = req.params
             const { name, price, img } = req.body
-            const editDatas= await Datas.findByIdAndUpdate(id, { name, price, img })
+            const editDatas= await Datas.findByIdAndUpdate(id, { name, price, img, desc })
             res.status(200).send("Item updated!")
         } catch (error) {
             res.status(404).send("an occures while editing product")

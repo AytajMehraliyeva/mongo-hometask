@@ -1,0 +1,129 @@
+.cards {
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    .card {
+        width: 23%;
+        border: 1px solid black;
+        height: 420px;
+        overflow: hidden;
+        border-radius: 5px;
+        font-size: 18px;
+        &Body {
+            width: 100%;
+            height: 220px;
+            padding: 10px 5px;
+            p {
+                padding: 10px;
+            }
+            .deleteBtn {
+                padding: 10px;
+                margin-right: 20px;
+                margin-top: 20px;
+                border: none;
+                border-radius: 5px;
+                background-color: rgb(193, 0, 0);
+                font-size: 16px;
+                color: white;
+                width: 90px;
+            }
+            .editBtn {
+                padding: 10px;
+                margin-top: 20px;
+                border: none;
+                border-radius: 5px;
+                background-color: rgb(216, 191, 0);
+                font-size: 16px;
+                color: white;
+                width: 90px;
+            }
+        }
+        img {
+            width: 100%;
+            height: 210px;
+        }
+    }
+}
+
+.homeMain {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    h2 {
+        font-size: 40px;
+        padding-top: 10px;
+        color: rgb(21, 21, 21);
+    }
+    .services {
+        color: blue;
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
+
+.centerContainer {
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    height: 450px;
+    img {
+        width: 50%;
+    }
+    &Body {
+        text-align: left;
+        padding: 80px 150px;
+        color: white;
+        p {
+            font-size: 16px;
+            padding: 20px 0;
+        }
+        h3 {
+            font-size: 42px;
+        }
+        .bigP {
+            color: rgb(202, 202, 202);
+            font-size: 18px;
+        }
+        .function {
+            font-size: 20px;
+            color: rgb(202, 202, 202);
+        }
+        .about {
+            width: 120px;
+            padding: 8px 15px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.homeMain2 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.our {
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.cards2 {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .card2 {
+        width: 23%;
+    }
+}

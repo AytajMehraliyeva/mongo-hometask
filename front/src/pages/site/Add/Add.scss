@@ -1,0 +1,31 @@
+.formAdd {
+    border: 1px solid black;
+    width: 60%;
+    margin: 90px auto;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    label {
+        font-size: 19px;
+        color: white;
+    }
+    input {
+        width: 60%;
+        margin: 10px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: 1px solid black;
+        font-size: 16px;
+    }
+    &_btn {
+        margin-top: 15px;
+        padding: 10px;
+        background-color: blue;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        width: 120px;
+    }
+}

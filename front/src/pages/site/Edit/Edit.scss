@@ -1,0 +1,47 @@
+.formEdit {
+    border: 1px solid black;
+    width: 60%;
+    margin: 140px auto;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    height: 360px;
+    padding: 20px;
+    border-radius: 10px;
+    .editInput {
+        width: 60%;
+        margin: 10px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: 1px solid black;
+        font-size: 16px;
+    }
+    .editLabel {
+        font-size: 19px;
+        color: white;
+    }
+    .editSubmit {
+        margin-top: 15px;
+        padding: 10px;
+        background-color: rgb(255, 200, 0);
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        color: white;
+        width: 120px;
+    }
+}
+
+.headerEdit {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-left: 500px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    gap: 20px;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
