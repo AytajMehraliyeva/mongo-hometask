@@ -4,6 +4,7 @@ import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
 import { Link } from 'react-router-dom'
 import './Home.scss'
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
     const{data,setData,setError,searchProduct,setUpdateItem}=useContext(MainContext)
@@ -40,6 +41,9 @@ const Home = () => {
 
   return (
     <>
+     <Helmet>
+      <title>Home</title>
+    </Helmet>
     <div className='homeMain'>
       <a className='services' href="">Services</a>
       <h2>With more than 20 years of <br /> 

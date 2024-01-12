@@ -5,6 +5,7 @@ import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
 import './Edit.scss'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 const Edit = () => {
     const{updatedItem,setUpdateItem}=useContext(MainContext)
     useEffect(()=>{
@@ -37,6 +38,10 @@ formik.setValues({
       });
   return (
     <>
+<Helmet>
+  <title>Edit</title>
+</Helmet>
+
     <div className='headerEdit'>
       <Link to={"/"}>Home</Link>
       <p>About</p>

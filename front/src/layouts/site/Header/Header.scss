@@ -65,10 +65,3 @@
         border-radius: 15px;
     }
 }
-
-@media screen and (max-height:120px) {
-    .header_nav {
-        position: fixed;
-        background-color: rgba(0, 0, 0, 0.4);
-    }
-}

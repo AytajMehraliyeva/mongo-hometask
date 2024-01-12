@@ -2,6 +2,7 @@ import { useState } from "react";
 import MainContext from "./context";
 import Router from "./routing/Router";
 import {RouterProvider, createBrowserRouter} from "react-router-dom"
+
 const router=createBrowserRouter(Router)
 
 function App() {
@@ -26,11 +27,13 @@ const datas={
 
 
   return (
+    <>
+   
  <MainContext.Provider value={datas}>
 
      <RouterProvider router={router}/>
 
-     </MainContext.Provider>
+     </MainContext.Provider></>
 
   );
 }

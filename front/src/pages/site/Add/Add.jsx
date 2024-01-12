@@ -4,6 +4,7 @@ import axios from 'axios'
 import toast, { Toaster } from 'react-hot-toast';
 import './Add.scss'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 const Add = () => {
   const formik = useFormik({
     initialValues: {
@@ -34,6 +35,9 @@ const Add = () => {
   });
   return (
 <>
+<Helmet>
+  <title>Add</title>
+</Helmet>
 <div className='headerEdit'>
       <Link to={"/"}>Home</Link>
       <p>About</p>
